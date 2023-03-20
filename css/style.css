@@ -145,3 +145,48 @@ a{
     margin-top: 30px;
     
 }
+
+/* Inizio del footer */
+footer{
+    background-color: rgb(20, 20, 55);
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social{
+    line-height: 24px;
+}
+
+.social h3{
+    color:rgb(86, 97, 223) ;
+    font-size: 30px;
+}
+
+.nav-footer :first-child{
+    color: rgb(86, 97, 223);
+}
+
+.nav-footer{
+    list-style-type: none;
+    line-height: 34px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer-logo .button{
+    background-color: rgb(24, 59, 252);
+    color: white;
+}
+
